@@ -20,7 +20,7 @@ def fun(s):
     except ValueError:
         return False
     
-    if not username.replace("-", "").replace("_", "").isalnum():
+    if not username.replace("-", "").replace("_", "").isalnum(): 
         return False
     elif not website.isalnum():
         return False
@@ -40,3 +40,12 @@ if __name__ == '__main__':
 filtered_emails = filter_mail(emails)
 filtered_emails.sort()
 print(filtered_emails)
+
+
+
+
+"""
+replace() function replaces a character.
+Since, "-","_" is allowed it is replaced by "". Now can be checked for other alphanumeric comditions.
+
+"""
