@@ -20,10 +20,10 @@ Since, n=3, i+j+k !=3
 
 
 if __name__ == '__main__':
-    x = int(input())
-    y = int(input())
-    z = int(input())
-    n = int(input())
+    x = int(input("x="))
+    y = int(input("y="))
+    z = int(input("z="))
+    n = int(input("n="))
     
     x_list=[x for x in range(x+1)]
     y_list=[y for y in range(y+1)]
