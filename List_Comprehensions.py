@@ -30,7 +30,6 @@ if __name__ == '__main__':
     z_list=[z for z in range(z+1)]
 
     Permutations=[[i,j,k] for i in x_list for j in y_list for k in z_list if i+j+k!=n]
-    
     print(Permutations)
 
 
