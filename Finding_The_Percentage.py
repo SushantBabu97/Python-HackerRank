@@ -31,6 +31,6 @@ if __name__ == '__main__':
 
 
 """
-
+ 
  "{0:.2f}.format()  gives 2 digits after decimal"
 """
