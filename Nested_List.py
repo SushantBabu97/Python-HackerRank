@@ -12,3 +12,29 @@ The ordered list of scores is [20.0,50.0], so the second lowest score is 50.0. T
 alpha
 beta
 """
+if __name__ == '__main__':
+    a=[]
+    sl_name=[]
+    scores=set()
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        a.append([name,score])
+        scores.add(score)
+
+    sl=sorted(scores)[1]
+
+    for name,score in a:
+    	if score==sl:
+    		sl_name.append(name)
+    for name in sorted(sl_name):
+    	print(name,end='\n')
+
+
+
+
+
+
+"""
+set() eliminates duplicate item. set([1,2,3,1]) gives [1,2,3].
+"""
